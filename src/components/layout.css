@@ -1,9 +1,9 @@
 :root {
-  --mainBrown: #2d1e1f;
-  --mainYellow: #ff9e09;
-  --mainGrey: #ece8dc;
-  --mainWhite: #fff;
-  --mainDark: #000;
+  --mainBrown: rgb(45, 30, 31);
+  --mainYellow: rgb(255, 158, 9);
+  --mainGrey: rgb(236, 232, 220);
+  --mainWhite: rgb(255, 255, 255);
+  --mainDark: rgb(0, 0, 0);
 }
 body {
   background: var(--mainWhite);
@@ -40,7 +40,7 @@ h6 {
   color: var(--mainDark) !important;
 }
 .default-background {
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
